@@ -1,0 +1,63 @@
+#logo
+{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    margin-top: 5px;
+    margin-left :5px;
+    width: 40px;
+    height: 40px;
+}
+nav {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    height: 45px;
+}
+.searchArea
+{
+    height: 80%;
+}
+#txt {
+    width:  400px;
+}
+#btn {
+    background-color: darkcyan;
+    color:  white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#btn:hover {
+    color: teal;
+    background-color:aqua;
+}
+#btn:active {
+    color: red;
+    background-color:aqua;
+}
+
+#rightDiv {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 10px;
+}
+ul {  
+    list-style-type: none;
+    display: inline-block;
+}
+.icon {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.HoverIcon {
+    height: 40px;
+
+}
+.HoverIcon:hover {
+background-color: grey;
+}
