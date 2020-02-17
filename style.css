@@ -45,10 +45,7 @@ nav {
     height: 40px;
     right: 10px;
 }
-ul {  
-    list-style-type: none;
-    display: inline-block;
-}
+
 .icon {
     margin-top: 5px;
     margin-left: 10px;
@@ -60,4 +57,73 @@ ul {
 }
 .HoverIcon:hover {
 background-color: grey;
+}
+
+.VideoSection {
+    width: 60%;
+    margin-left: 20px;
+}
+
+#Video {
+    border-bottom: 2px solid grey;
+}
+
+.YoutubeIframe {
+    width: 100%;
+    height: 400px;
+}
+
+.views {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: grey;
+}
+
+.videoIcons {
+    width: 150px;
+    height: 40px;
+    float: right;
+}
+.VideoIconSize
+{
+    width: 32px;
+    height: 32px;
+}
+
+#ShareBtn {
+    position: relative;
+    top : 0px;
+    right: 0px;
+    border-radius: 5px;
+    background-color: tomato;
+    margin-bottom: 15px;
+    height: 30px;
+
+}
+
+#Views_and_Icons
+{
+    height: 40px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bottomDiv {
+    display: flex;
+    align-items: center;
+}
+.profile {
+    width: 500px;
+    font-weight: 100;
+}
+
+.Subscribe {
+      height: 40px;
+      margin-left: 500px;
+      background-color: red;
+      color: white;  
 }
