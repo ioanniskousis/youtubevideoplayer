@@ -1,65 +1,82 @@
-.mainDiv {
-    display: flex;;
-}
-#logo
-{
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    margin-top: 5px;
-    margin-left :5px;
-    width: 40px;
-    height: 40px;
-}
+
 nav {
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-color: navy;
-    height: 45px;
+    display: flex;
+    height: 60px;
+    align-items:center;
+    justify-content:center;  
+    background-color:white;
 }
-.searchArea
+#menuIcon
 {
-    height: 80%;
-}
-#txt {
-    width:  400px;
-}
-#btn {
-    background-color: darkcyan;
-    color:  white;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: 1px solid grey;
+    margin-left:10px;
+    height: 28px;
 }
 
-#btn:hover {
-    color: teal;
-    background-color:aqua;
+#logo
+{
+    margin-left:20px;
+    height: 28px;
 }
-#btn:active {
-    color: red;
-    background-color:aqua;
+
+.searchArea
+{
+    display: flex;
+    width: 45%;
+    height: 32px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#searchTxt {
+    width:  80%;
+    height: 100%;
+    margin-left: 60px;
+    font-size: medium;
+    padding-left: 10px;
+}
+#SearchBtn {
+    margin-left: 0;
+    padding-left: 0;
+    height: 100%;
+    color: #c6b4b4;
+    width: 60px;   
+    border: 1px solid #CCCCCC;
+    border-left: none;
+}
+#SearchBtn:hover {
+    color: black;
+    background-color:#C6C6C6 ;
 }
 
 #rightDiv {
-    position: absolute;
-    width: 200px;
+    display: flex;
+    justify-content: right;
+    width: 250px;
     height: 40px;
     right: 10px;
 }
 
 .icon {
-    margin-top: 5px;
+    height: 22px;
+    margin-top: 8px;
     margin-left: 10px;
     margin-right: 10px;
+    
 } 
+
 .HoverIcon {
     height: 40px;
 
 }
-.HoverIcon:hover {
-background-color: grey;
+
+
+/**============================================*/
+
+.mainDiv {
+    display: flex;
+    background-color: #F9F9F9;
+    padding-top: 35px;
 }
 
 .VideoSection {
