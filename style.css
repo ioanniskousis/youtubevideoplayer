@@ -51,7 +51,7 @@ nav {
 
 #rightDiv {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     width: 250px;
     height: 40px;
     right: 10px;
@@ -70,6 +70,10 @@ nav {
 
 }
 
+/*=============================================*/
+iframe{
+    border-width: 0px;
+}
 
 /**============================================*/
 
