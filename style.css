@@ -37,6 +37,7 @@ nav {
 #searchTxt {
     width:  80%;
     height: 100%;
+    box-sizing: border-box;
     margin-left: 60px;
     font-size: medium;
     padding-left: 10px;
@@ -47,7 +48,7 @@ nav {
     margin-left: 0;
     padding-left: 0;
     height: 100%;
-    color: #f0f0f0;
+    color: lightgray;
     width: 60px;   
     border: 1px solid #CCCCCC;
     border-left: none;
